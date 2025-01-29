@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "402581986887",
+    "firebase_url": "https://iot-modelo-default-rtdb.firebaseio.com",
+    "project_id": "iot-modelo",
+    "storage_bucket": "iot-modelo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402581986887:android:131ad7f3f620f1ea535b62",
+        "android_client_info": {
+          "package_name": "com.example.iot_modelo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGYIkwA-ye0_7N5s_h-B7bE9r6tsFlUhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
