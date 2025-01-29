@@ -11,6 +11,16 @@ Este projeto tem como objetivo criar um modelo de detecção de objetos para rod
 5. O módulo Wi-Fi ESP8266 transmite os dados para a **nuvem**.
 6. O aplicativo móvel recebe a equação, realiza o cálculo e exibe o resultado para o usuário.
 
+<div align="center" style="display: flex; gap: 50px; justify-content: center;"> 
+    <img src="https://github.com/user-attachments/assets/bc9384b4-c824-466b-afb7-a47496504779" width="250">
+    <img src="https://github.com/user-attachments/assets/a1c4ab20-a80d-4ee3-84b3-23e399635ea3" width="250">
+    <img src="https://github.com/user-attachments/assets/6931ee5b-3f43-4be7-a71f-0c53afcfad01" width="250">
+</div>
+
+<div align="center" style="display: flex; gap: 50px; justify-content: center;">
+   <img src="https://github.com/user-attachments/assets/4f859089-a1f5-4bb0-84fd-7f1c22ec671b" width="250">
+</div>
+
 ## 🔧 Tecnologias Utilizadas
 - **Hardware:** Arduino Nano 33 BLE Sense, Câmera OV767X, Módulo Wi-Fi ESP8266
 - **Machine Learning:** Edge Impulse
