@@ -1,4 +1,4 @@
-# 📌 Projeto: Detecção de Operações Matemáticas com Arduino Nano 33 BLE Sense
+# 📌 Detecção de Operações Matemáticas com Arduino Nano 33 BLE Sense ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
 ## 📖 Visão Geral
 Este projeto tem como objetivo criar um modelo de detecção de objetos para rodar no **Arduino Nano 33 BLE Sense**, utilizando **Edge Impulse** para reconhecer números em operações matemáticas simples (+ ou -). Após a detecção, a equação é processada em um script em **python** que é enviados para a **nuvem** por meio de um módulo **Wi-Fi ESP8266**. Um aplicativo móvel em **Flutter** recebe e exibe o resultado final da equação, além de enviar comandos para iniciar a captura da imagem.
@@ -10,6 +10,20 @@ Este projeto tem como objetivo criar um modelo de detecção de objetos para rod
 4. A informação processada é enviada para o **módulo Wi-Fi ESP8266**.
 5. O módulo Wi-Fi ESP8266 transmite os dados para a **nuvem**.
 6. O aplicativo móvel recebe a equação, realiza o cálculo e exibe o resultado para o usuário.
+
+<div align="center" style="display: flex; gap: 50px; justify-content: center;"> 
+    <img src="https://github.com/user-attachments/assets/bc9384b4-c824-466b-afb7-a47496504779" width="250">
+    <img src="https://github.com/user-attachments/assets/a1c4ab20-a80d-4ee3-84b3-23e399635ea3" width="250">
+    <img src="https://github.com/user-attachments/assets/6931ee5b-3f43-4be7-a71f-0c53afcfad01" width="250">
+</div>
+
+## 🧠 Modelo de Machine Learning
+
+O modelo de Machine Learning foi treinado utilizando o Edge Impulse com amostras coletadas manualmente. Para isso, foram capturadas imagens de números e operadores matemáticos escritos à mão, criando um conjunto de dados diversificado. Durante o treinamento. O modelo final foi exportado no formato compatível com o Arduino Nano 33 BLE Sense, garantindo uma execução eficiente no dispositivo embarcado.
+
+<div align="center" style="display: flex; gap: 50px; justify-content: center;">
+   <img src="https://github.com/user-attachments/assets/4f859089-a1f5-4bb0-84fd-7f1c22ec671b" width="250">
+</div>
 
 ## 🔧 Tecnologias Utilizadas
 - **Hardware:** Arduino Nano 33 BLE Sense, Câmera OV767X, Módulo Wi-Fi ESP8266
