@@ -46,6 +46,8 @@ O modelo de Machine Learning foi treinado utilizando o Edge Impulse com amostras
 ### 1️⃣ Configuração do Arduino
 1. Instale a biblioteca **Arduino_OV767X** no Arduino IDE.
 2. Faça o upload do código para o **Arduino Nano 33 BLE Sense**.
+3. Instalação do **Módulo Wi-Fi ESP8266** [Programando o esp8266 pela arduino ide](https://www.robocore.net/tutoriais/programando-o-esp8266-pela-arduino-ide)
+4. Integração com **Firebase** [Conexão com Firebase](https://www.youtube.com/watch?v=_ADdFH2K7SI)
 
 ### 2️⃣ Executar o Script Python
 1. Certifique-se de ter **Python 3+** instalado.
