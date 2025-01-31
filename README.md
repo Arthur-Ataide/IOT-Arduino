@@ -21,6 +21,8 @@ Este projeto tem como objetivo criar um modelo de detecção de objetos para rod
 
 O modelo de Machine Learning foi treinado utilizando o Edge Impulse com amostras coletadas manualmente. Para isso, foram capturadas imagens de números e operadores matemáticos escritos à mão, criando um conjunto de dados diversificado. Durante o treinamento. O modelo final foi exportado no formato compatível com o Arduino Nano 33 BLE Sense, garantindo uma execução eficiente no dispositivo embarcado.
 
+[Edge Impulse](https://studio.edgeimpulse.com/studio/613428)
+
 <div align="center" style="display: flex; gap: 50px; justify-content: center;">
    <img src="https://github.com/user-attachments/assets/4f859089-a1f5-4bb0-84fd-7f1c22ec671b" width="250">
 </div>
